@@ -1,1 +1,1 @@
-# simple_landing_page_1
+# Sundaeswap landing page (Just for practice)

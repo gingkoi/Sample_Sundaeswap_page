@@ -12,219 +12,225 @@
       rel="stylesheet"
     />
   </head>
-  <body
-    class="flex flex-col h-screen items-center bg-gradient-to-r from-red-200 via-red-300 to-cyan-200 font-popping"
-  >
-    <!-- card -->
-    <nav class="w-screen flex justify-between items-start pt-5 px-10">
-      <h1 class="text-3xl text-black font-bold cursor-pointer">SundaeSwap</h1>
-      <div class="bg-white rounded-2xl p-2">
-        <img
-          src="./img/icons8-moon-symbol-48.png"
-          alt=""
-          class="w-10 cursor-pointer hover:opacity-80"
-        />
+  <body class="dark">
+    <div
+      class="flex flex-col h-full items-center bg-gradient-to-r from-red-200 via-red-300 to-cyan-200 font-popping dark:bg-black"
+    >
+      <!-- navbar -->
+      <nav class="w-screen flex justify-between items-start pt-5 px-10">
+        <h1 class="text-3xl text-black font-bold cursor-pointer">SundaeSwap</h1>
+        <div class="bg-white rounded-2xl p-2">
+          <img
+            src="./img/icons8-moon-symbol-48.png"
+            alt=""
+            class="w-10 cursor-pointer hover:opacity-80"
+          />
+        </div>
+      </nav>
+      <div class="flex justify-center h-full">
+        <div
+          class="flex flex-col justify-around bg-white px-10 py-16 mx-auto rounded-2xl w-9/10 h-2/10 shadow-2xl my-5"
+        >
+          <div>
+            <div class="flex">
+              <h1 class="text-black text-5xl font-extrabold tracking-wider">
+                A Decentralized<br />Trading Protocol on Cardano.
+              </h1>
+              <div class="ml-7 flex-col justify-center items-center">
+                <button
+                  class="mb-10 py-5 px-14 bg-rose-300 rounded-full text-xl font-medium text-gray-900 hover:opacity-80"
+                >
+                  Enter App
+                </button>
+              </div>
+            </div>
+
+            <p class="text-lg py-5">
+              SundaeSwap is a native, scalable decentralized exchange and
+              automated liquidity provision protocol.
+            </p>
+            <div class="flex justify-around mt-5 font-bold text-black">
+              <img src="./img/3d-casual-life-nft-composition.png" alt="" />
+              <img
+                src="./img/3d-casual-life-mobile-banking-cashback.png"
+                alt=""
+              />
+              <img src="./img/3d-casual-life-candlesticks-chart.png" alt="" />
+            </div>
+          </div>
+        </div>
       </div>
-    </nav>
-    <div class="flex justify-center items-center h-screen">
-      <div
-        class="flex flex-col justify-around bg-white p-10 mx-auto rounded-2xl w-9/10 h-7/10 shadow-2xl my-5"
-      >
-        <div>
-          <div class="flex">
-            <h1 class="text-black text-5xl font-extrabold tracking-wider">
-              A Decentralized<br />Trading Protocol on Cardano.
-            </h1>
-            <div class="ml-7 flex-col justify-center items-center">
-              <button
-                class="mb-10 py-5 px-14 bg-rose-300 rounded-full text-xl font-medium text-gray-900 hover:opacity-80"
-              >
-                Enter App
-              </button>
+      <div class="w-screen my-16">
+        <h2 class="text-3xl font-semibold text-center">
+          A Decentralized Exchange
+        </h2>
+        <h3 class="text-center text-lg">
+          An ownerless marketplace for efficient cryptocurrency transactions.
+        </h3>
+      </div>
+      <!-- 3 cards -->
+      <div class="bg-slate-50 w-screen">
+        <div class="flex justify-center mx-44 my-24 space-x-10">
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-5 py-10 shadow-2xl"
+          >
+            <img
+              class="w-96 h-96 mx-auto"
+              src="./img/ownership-59cfd6a2cc1e630b3586d67fb40a539e.png"
+              alt=""
+            />
+            <h3 class="text-center font-bold text-lg">
+              Democratize Ownership & Profits
+            </h3>
+            <h4 class="text-center font-base text-base my-3">
+              Deconstruct the walled gardens of classic financial institutions.
+            </h4>
+          </div>
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
+          >
+            <img
+              class="w-96 h-96 mx-auto"
+              src="./img/cardano-coin-85b8621b1eb2c713174f9da3344cf9a8.png"
+              alt=""
+            />
+            <h3 class="text-center font-bold text-lg">Efficient Liquidity</h3>
+            <h4 class="text-center font-base text-base my-3">
+              Level up beyond constant product pools and put your capital to
+              work.
+            </h4>
+          </div>
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
+          >
+            <img
+              class="w-96 h-96 mx-auto"
+              src="./img/services-0e7763285f6f98a65bbb88a87b16a874.png"
+              alt=""
+            />
+            <h3 class="text-center font-bold text-lg">
+              A Foundation for a Variety of Services
+            </h3>
+            <h4 class="text-center font-base text-base my-3">
+              Attract assets that can empower an ecosystem of financial
+              products.
+            </h4>
+          </div>
+        </div>
+
+        <!-- investors -->
+        <div class="mx-44 mt-40">
+          <h3 class="text-5xl font-bold">Our Investors</h3>
+          <h4 class="mt-3 text-xl text-gray-400">
+            Financially backed and supported by world-class venture partners.
+          </h4>
+        </div>
+        <div class="flex justify-center mx-44 my-12 space-x-14">
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-8 py-16 shadow-2xl"
+          >
+            <img
+              class="w-80 h-80 mx-auto"
+              src="./img/investor_logo/cfunds-logo.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
+          >
+            <img
+              class="w-80 h-80 mx-auto"
+              src="./img/investor_logo/algo-logo.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
+          >
+            <img
+              class="w-80 h-80 mx-auto"
+              src="./img/investor_logo/ergo-logo.png"
+            />
+          </div>
+        </div>
+
+        <!-- partners -->
+        <div class="mx-44 mt-40">
+          <h3 class="text-5xl font-bold">Partners</h3>
+          <h4 class="mt-3 text-xl text-gray-400">
+            Learn more about our partners who are helping us build a fully
+            integrated ecosystem.
+          </h4>
+        </div>
+        <div class="flex justify-around mx-44 my-12 space-x-14">
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-16 shadow-2xl grow"
+          >
+            <img
+              class="w-80 h-80 mx-auto"
+              src="./img/partners/crypto-logo.png"
+              alt=""
+            />
+          </div>
+          <div
+            class="bg-white rounded-2xl flex flex-col justify-center px-16 shadow-2xl grow"
+          >
+            <img
+              class="w-80 h-80 mx-auto"
+              src="./img/partners/mlabs-logo.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="my-20 w-screen">
+        <div class="flex justify-between mx-10">
+          <!-- logo -->
+          <div class="w-96">
+            <h1 class="text-4xl font-bold">SundaeSwap</h1>
+            <p class="text-sm mt-3 text-justify text-gray-700">
+              SundaeSwap is the sweetest decentralized exchange on Cardano and
+              aiming to be the platform for future financial innovation. Join
+              the community today!
+            </p>
+          </div>
+          <!-- links -->
+          <div class="flex space-x-24 grow ml-40">
+            <div class="flex flex-col space-y-4">
+              <h4 class="text-2xl font-medium">SundaeSwap</h4>
+              <a href="" class="text-gray-700">Team</a>
+              <a href="" class="text-gray-700">News & Update</a>
+              <a href="" class="text-gray-700">FAQ</a>
+              <a href="" class="text-gray-700">Tokenomics</a>
+            </div>
+            <div class="flex flex-col space-y-4">
+              <h4 class="text-2xl font-medium">Resources</h4>
+              <a href="" class="text-gray-700">Media Kit</a>
+              <a href="" class="text-gray-700">Whitepaper</a>
+              <a href="" class="text-gray-700">Privacy Policy</a>
+              <a href="" class="text-gray-700">Terms & Conditions</a>
+            </div>
+            <div class="flex flex-col space-y-4">
+              <h4 class="text-2xl font-medium">Foundation</h4>
+              <a href="" class="text-gray-700">Hiring</a>
+              <a href="" class="text-gray-700">Contact</a>
             </div>
           </div>
 
-          <p class="text-lg py-5">
-            SundaeSwap is a native, scalable decentralized exchange and
-            automated liquidity provision protocol.
-          </p>
-          <div class="flex justify-around mt-5 font-bold text-black">
-            <img src="./img/3d-casual-life-nft-composition.png" alt="" />
-            <img
-              src="./img/3d-casual-life-mobile-banking-cashback.png"
-              alt=""
-            />
-            <img src="./img/3d-casual-life-candlesticks-chart.png" alt="" />
+          <!-- social media -->
+          <div class="flex space-x-4">
+            <a href=""
+              ><img src="./img/icons8-github-50.png" alt="" class=""
+            /></a>
+            <a href=""
+              ><img src="./img/icons8-twitter-30.png" alt="" class=""
+            /></a>
+            <a href=""
+              ><img src="./img/icons8-medium-monogram-30.png" alt=""
+            /></a>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="w-screen my-16">
-      <h2 class="text-3xl font-semibold text-center">
-        A Decentralized Exchange
-      </h2>
-      <h3 class="text-center text-lg">
-        An ownerless marketplace for efficient cryptocurrency transactions.
-      </h3>
-    </div>
-    <!-- 3 cards -->
-    <div class="bg-slate-50 w-screen">
-      <div class="flex justify-center mx-44 my-24 space-x-10">
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-5 py-10 shadow-2xl"
-        >
-          <img
-            class="w-96 h-96 mx-auto"
-            src="./img/ownership-59cfd6a2cc1e630b3586d67fb40a539e.png"
-            alt=""
-          />
-          <h3 class="text-center font-bold text-lg">
-            Democratize Ownership & Profits
-          </h3>
-          <h4 class="text-center font-base text-base my-3">
-            Deconstruct the walled gardens of classic financial institutions.
-          </h4>
-        </div>
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
-        >
-          <img
-            class="w-96 h-96 mx-auto"
-            src="./img/cardano-coin-85b8621b1eb2c713174f9da3344cf9a8.png"
-            alt=""
-          />
-          <h3 class="text-center font-bold text-lg">Efficient Liquidity</h3>
-          <h4 class="text-center font-base text-base my-3">
-            Level up beyond constant product pools and put your capital to work.
-          </h4>
-        </div>
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
-        >
-          <img
-            class="w-96 h-96 mx-auto"
-            src="./img/services-0e7763285f6f98a65bbb88a87b16a874.png"
-            alt=""
-          />
-          <h3 class="text-center font-bold text-lg">
-            A Foundation for a Variety of Services
-          </h3>
-          <h4 class="text-center font-base text-base my-3">
-            Attract assets that can empower an ecosystem of financial products.
-          </h4>
-        </div>
-      </div>
-
-      <!-- investors -->
-      <div class="mx-44 mt-40">
-        <h3 class="text-5xl font-bold">Our Investors</h3>
-        <h4 class="mt-3 text-xl text-gray-400">
-          Financially backed and supported by world-class venture partners.
-        </h4>
-      </div>
-      <div class="flex justify-center mx-44 my-12 space-x-14">
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-8 py-16 shadow-2xl"
-        >
-          <img
-            class="w-80 h-80 mx-auto"
-            src="./img/investor_logo/cfunds-logo.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
-        >
-          <img
-            class="w-80 h-80 mx-auto"
-            src="./img/investor_logo/algo-logo.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-5 shadow-2xl"
-        >
-          <img
-            class="w-80 h-80 mx-auto"
-            src="./img/investor_logo/ergo-logo.png"
-          />
-        </div>
-      </div>
-
-      <!-- partners -->
-      <div class="mx-44 mt-40">
-        <h3 class="text-5xl font-bold">Partners</h3>
-        <h4 class="mt-3 text-xl text-gray-400">
-          Learn more about our partners who are helping us build a fully
-          integrated ecosystem.
-        </h4>
-      </div>
-      <div class="flex justify-around mx-44 my-12 space-x-14">
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-16 shadow-2xl grow"
-        >
-          <img
-            class="w-80 h-80 mx-auto"
-            src="./img/partners/crypto-logo.png"
-            alt=""
-          />
-        </div>
-        <div
-          class="bg-white rounded-2xl flex flex-col justify-center px-16 shadow-2xl grow"
-        >
-          <img
-            class="w-80 h-80 mx-auto"
-            src="./img/partners/mlabs-logo.png"
-            alt=""
-          />
-        </div>
-      </div>
-    </div>
-
-    <!-- footer -->
-    <div class="my-20 w-screen pb-20">
-      <div class="flex justify-between mx-10">
-        <!-- logo -->
-        <div class="w-96">
-          <h1 class="text-4xl font-bold">SundaeSwap</h1>
-          <p class="text-sm mt-3 text-justify text-gray-700">
-            SundaeSwap is the sweetest decentralized exchange on Cardano and
-            aiming to be the platform for future financial innovation. Join the
-            community today!
-          </p>
-        </div>
-        <!-- links -->
-        <div class="flex space-x-24 grow ml-40">
-          <div class="flex flex-col space-y-4">
-            <h4 class="text-2xl font-medium">SundaeSwap</h4>
-            <a href="" class="text-gray-700">Team</a>
-            <a href="" class="text-gray-700">News & Update</a>
-            <a href="" class="text-gray-700">FAQ</a>
-            <a href="" class="text-gray-700">Tokenomics</a>
-          </div>
-          <div class="flex flex-col space-y-4">
-            <h4 class="text-2xl font-medium">Resources</h4>
-            <a href="" class="text-gray-700">Media Kit</a>
-            <a href="" class="text-gray-700">Whitepaper</a>
-            <a href="" class="text-gray-700">Privacy Policy</a>
-            <a href="" class="text-gray-700">Terms & Conditions</a>
-          </div>
-          <div class="flex flex-col space-y-4">
-            <h4 class="text-2xl font-medium">Foundation</h4>
-            <a href="" class="text-gray-700">Hiring</a>
-            <a href="" class="text-gray-700">Contact</a>
-          </div>
-        </div>
-
-        <!-- social media -->
-        <div class="flex space-x-4">
-          <a href=""
-            ><img src="./img/icons8-github-50.png" alt="" class="w-30"
-          /></a>
-          <a href=""><img src="./img/icons8-twitter-30.png" alt="" /></a>
-          <a href=""
-            ><img src="./img/icons8-medium-monogram-30.png" alt=""
-          /></a>
         </div>
       </div>
     </div>
